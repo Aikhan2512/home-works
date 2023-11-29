@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:antiquewhite;
+  }
+  
+  header {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    position:sticky;
+  }
+  
+  nav ul {
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color:  black;
+    font-weight: bold;
+  }
+  nav {
+    margin-top: 10px;
+}
+  .logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    
+  }
+.rod {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn {
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    width: 70px;
+    height: 30px;
+}
+
+.icon-menu {
+    display: flex;
+    gap: 20px;
+}
+.icon-menu img {
+    width: 30px;
+}
+
+.gan {
+  position: relative;
+  margin-left: 20px;
+  }
+
+h2 {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  vertical-align: top;
+  }
+h2 span {
+  color: #fff;
+  padding: 30px;
+  }
+  p {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  }
+p span {
+  color: #fff;
+  padding: 30px;
+  }
+
+  .banners{
+    width: 490px;
+    height: 530px;
+    
+  }
+  .container {
+    padding: 2px 16px;
+  }
+  .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+  }
+  .lp{
+    margin-left: 20px;
+  }
+  .rod{
+    margin-left: 20px;
+  }
+  .image {
+    display: flex;
+    gap: 25px;
+    margin-left: 20px;
+  }
+  .kas{
+    display: flex;
+    gap: 25px;
+  }
+
+.card-button {
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  height: 40px;
+  width: 150px;
+}
+
+.card-text-content {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color:ghostwhite;
+}
+
+.foto{
+  margin-left: 20px;
+  display: flex;
+  gap: 25px;
+  background-image: url(./LG_OBJET-COLLETION_1440x600.jpg);
+  border-radius: 10px;
+  height: 600px;
+  padding: 40px;
+}
+
+.cardss-text-content {
+  
+  color:ghostwhite;
+  display: flex;
+  justify-content: f;
+}
+.wer{
+  margin-left: 20px;
+}
+.images{
+  margin-left: 20px;
+ display: flex;
+ gap: 40px;
+}
+.cards{
+
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px; 
+  border: 5px; 
+  box-shadow: 0 0 10px #444;
+  text-align: left;
+  }
+
+.cartochka{
+  margin-left: 20px;
+  display: flex;
+  gap: 25px;
+}
+
+.containers{
+
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  color:ghostwhite;
+}
+
+.car{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+}
